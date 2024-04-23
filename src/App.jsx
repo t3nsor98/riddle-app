@@ -3,7 +3,8 @@ import { useEffect } from "react";
 
 function App() {
   const API_KEY = "h/Ig48/zxpf083tO4DZgyg==eKkv49i06zx2Qm1f";
-  const API_URL = "https://api.api-ninjas.com/v1/riddles";
+  const API_URL = process.env.API_KEY;
+
 
   const [riddleData, setRiddleData] = useState({
     title: "The Title",
