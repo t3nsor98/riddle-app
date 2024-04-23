@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 
 function App() {
-  const API_KEY = process.env.REACT_APP_API_KEY;
+  const API_KEY = process.env.REACT_APP_REACT_APP_API_KEY;
   const API_URL = "https://api.api-ninjas.com/v1/riddles";
 
   const [riddleData, setRiddleData] = useState({
